@@ -9,7 +9,7 @@ export default function Home() {
           {/* PHOTO */}
           <div className="flex justify-center mb-6">
             <img
-              src="/sandrine.jpg"
+              src="/sandrine.png"
               alt="DJOU KAMOU SANDRINE"
               className="w-40 h-40 rounded-full object-cover border-4 border-blue-500 shadow-lg"
             />
