@@ -5,15 +5,36 @@ export default function Home() {
 
         {/* HERO SECTION */}
         <section className="text-center mb-20">
+
+          {/* PHOTO */}
+          <div className="flex justify-center mb-6">
+            <img
+              src="/sandrine.jpg"
+              alt="DJOU KAMOU SANDRINE"
+              className="w-40 h-40 rounded-full object-cover border-4 border-blue-500 shadow-lg"
+            />
+          </div>
+
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Hi, I'm Sandrine 👋
+            Hi, I'm DJOU KAMOU SANDRINE 👋
           </h1>
+
           <p className="text-xl text-gray-300 mb-6">
             Full-Stack Web Developer | React • Next.js • ASP.NET Core
           </p>
-          <p className="text-gray-400">
-            Open to Remote International Opportunities
+
+          <p className="text-gray-400 mb-6">
+            Available for Remote Full-Stack Developer Roles (Worldwide)
           </p>
+
+          <a
+            href="/Sandrine_CV.pdf"
+            target="_blank"
+            className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-500 transition"
+          >
+            Download CV
+          </a>
+
         </section>
 
         {/* ABOUT SECTION */}
@@ -26,16 +47,6 @@ export default function Home() {
             using React, Next.js, and ASP.NET Core.
           </p>
         </section>
-        <div className="mt-6">
-          <a
-            href="/Sandrine_CV.pdf"
-            target="_blank"
-            className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-500 transition"
-          >
-            Download CV
-          </a>
-        </div>
-        Available for Remote Full-Stack Developer Roles (Worldwide)
 
         {/* SKILLS SECTION */}
         <section className="mb-16">
@@ -84,10 +95,10 @@ export default function Home() {
         <section>
           <h2 className="text-3xl font-semibold mb-4">Contact</h2>
           <p className="text-gray-300">
-            📧 your-email@example.com
+            📧 djoukamous@yahoo.fr
           </p>
           <p className="text-gray-300">
-            🔗 LinkedIn: linkedin.com/in/your-profile
+            🔗 LinkedIn: https://www.linkedin.com/in/your-real-profile
           </p>
         </section>
 
